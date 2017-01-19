@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>gitblit Mail Notifier</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+		<link rel="stylesheet" type="text/css" media="screen" href="skin/global.css" />
+
+		<script type="text/javascript" src="js/chrome.js"></script>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/uiutil.js"></script>
+		<script type="text/javascript" src="js/options.js"></script>
+		<script type="text/javascript" src="js/options_specific.js"></script>
+
+	</head>
+	<body class="option">
+		<div class="header">
+			<h1 class="title" style="text-shadow:1px 1px 4px #222"><img src="skin/images/gitblit_notifier.png" height=48 alt="Icon" /><span msg="extName"></span></h1>
+		</div>
+
+		<div class="content">
+			<ul class="menu">
+				<li><a contentID="0" href="#"><img src="skin/images/prefs/general.png" height="22" alt="Icon" /><span msg="option_common_label"></span></a></li>
+			</ul>	       
+			<div class="tabContentWrapper">
+				<div id="content_0" class="tabContent hide">
+					<fieldset class="options">
+						<legend><label class="section" msg="option_server_caption"></label></legend>
+						<div class="subOptions">
+							<div>
+								<label msg="option_server_label" msgtemplate="%MSG% : "></label>
+								<input id="gitblit_notifier-textboxServer" type="text" pref="userServer" style="width:400px;">
+								<button id="gitblit_notifier-serverTestButton" msg="option_server_test_button"></button>
+							</div>
+							<div id="gitblit_notifier-serverState"></div>
+							<div id="gitblit_notifier-serverError"></div>
+						</div>
+					</fieldset>
+					<fieldset class="options">
+						<legend><label class="section" msg="option_commit_view_caption"></label></legend>
+						<div class="subOptions">
+							<div>
+								<label msg="option_commit_view_nbMax_label" msgTemplate="%MSG% : "></label>
+								<input id="gitblit_notifier-optionCommitNbDisplayed" type="number" min="1" max="30" step="1" maxlength="2" pref="commitNbDisplayed"/>
+							</div>
+							<div>
+								<label msg="option_commit_view_nbMax_characters_label" msgTemplate="%MSG% : "></label>
+								<input id="gitblit_notifier-optionCommitNbCharactersDisplayed" type="number" min="50" max="240" step="10" maxlength="3" pref="commitNbCharactersDisplayed"/>
+							</div>
+							<div>
+								<input type="checkbox" id="gitblit_notifier-optionDisplayHistory" pref="commitHistoryViewEnabled" />
+								<label for="gitblit_notifier-optionDisplayHistory" msg="option_common_displayHistory"></label>
+							</div>
+						</div>
+					</fieldset>
+					<fieldset class="options">
+						<legend><label class="section" msg="option_common_notification_caption"></label></legend>
+						<div class="subOptions">
+							<div>
+								<input type="checkbox" id="gitblit_notifier-optionNotification" pref="systemNotificationEnabled" />
+								<label for="gitblit_notifier-optionNotification" msg="option_common_systemNotification"></label>
+							</div>
+							<div>
+								<input type="checkbox" id="gitblit_notifier-optionSound" pref="soundNotificationEnabled" />
+								<label for="gitblit_notifier-optionSound" msg="option_common_soundNotification"></label>
+							</div>
+							<div>
+								<label msg="option_common_notify_duration_caption" msgTemplate="%MSG% : "></label>
+								<input id="gitblit_notifier-optionNotificationDuration" type="number" min="2" max="999" step="4" maxlength="3" pref="notificationDuration"/>
+								<label msg="seconds"></label>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+			</div>
+			<div class="footer">
+				<span class="legal" msg="option_legal_label"></span>
+				<span class="createby" msg="option_createdby_label"></span>
+			</div>
+		</div>
+	</body>
+</html>

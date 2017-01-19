@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		
+		<link rel="stylesheet" type="text/css" media="screen" href="skin/global.css" />
+		
+		<script type="text/javascript" src="js/chrome.js"></script>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/uiutil.js"></script>
+		<script type="text/javascript" src="js/popup.js"></script>
+		<script type="text/javascript" src="js/popup_specific.js"></script>
+	</head>
+	<body class="popup">
+		<div class="action">
+			<img id="gitblit_notifier_tooltipHome" 
+				src="skin/images/button_home.png" msgtitle="main_homepage_label" />
+			<img id="gitblit_notifier_tooltipCheckNow" 
+				src="skin/images/button_refresh.png" msgtitle="main_checkNow" />
+			<img id="gitblit_notifier_tooltipOption"
+				src="skin/images/button_option.png" msgTitle="main_options_label" />
+		</div>
+		<fieldset id="gitblit_notifier_tooltipInformationGroup">
+			<legend>
+				<label class="section" msg="tooltip_information_caption"></label>
+			</legend>
+			<div id="gitblit_notifier_tooltipInformation"></div>
+		</fieldset>
+		<fieldset id="gitblit_notifier_tooltipCommitGroup">
+			<legend>
+				<label class="section" msg="tooltip_commit_caption"></label>
+			</legend>
+			<div id="gitblit_notifier_tooltipCommit"></div>
+		</fieldset>
+		<fieldset id="gitblit_notifier_tooltipCommitReadGroup">
+			<legend>
+				<label class="section" msg="tooltip_commit_read_caption"></label>
+			</legend>
+			<div id="gitblit_notifier_tooltipCommitRead"></div>
+		</fieldset>
+	</body>
+</html>
+

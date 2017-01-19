@@ -1,0 +1,42 @@
+{
+    "manifest_version": 2,
+    "name": "__MSG_extName__",
+    "version": "1.0.0",
+    "default_locale": "en",
+    "description": "__MSG_extDescription__",
+    "browser_action": {
+        "default_icon": "skin/images/icon_disabled.png",
+        "default_popup": "popup.html",
+        "default_title": "__MSG_extName__"
+    },
+    /* for Firefox extension
+    "applications": {
+        "gecko": {
+            "id": "gitblit_notifier@davidguehennec.com",
+            "strict_min_version": "45.0.0",
+            "strict_max_version": "*"
+        }
+    },
+    for Firefox extension */
+    "icons": {
+        "16": "skin/images/gitblit_notifier_32.png",
+        "32": "skin/images/gitblit_notifier_32.png",
+        "48": "skin/images/gitblit_notifier_48.png",
+        "64": "skin/images/gitblit_notifier_64.png",
+        "128": "skin/images/gitblit_notifier_128.png"
+    },
+    "permissions": [
+        "notifications",
+        "http://*/",
+        "https://*/",
+        "webRequest",
+        "storage"
+    ],
+    "background": {
+        "page": "background.html"
+    },
+    "options_page": "options.html",
+    "web_accessible_resources": [
+        "skin/images/gitblit_notifier.png"
+    ]
+}

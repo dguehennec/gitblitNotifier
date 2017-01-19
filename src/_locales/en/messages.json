@@ -1,0 +1,138 @@
+{
+    "extName": {
+        "message": "Gitblit Notifier",
+        "description": ""
+    },
+    "extDescription": {
+        "message": "This extension notifies you when new commit activity is done in your gitblit server.",
+        "description": ""
+    },
+
+    "main_checkNow": {
+        "message": "Refresh...",
+        "description": ""
+    },
+    "main_options_label": {
+        "message": "Preferences",
+        "description": ""
+    },
+
+    "connector_error_authentification": {
+        "message": "Authentification error: %REASON%!",
+        "description": ""
+    },
+    "connector_error_req": {
+        "message": "Error during dialog with server: %REASON%!",
+        "description": ""
+    },
+    "connector_error_req_timeout": {
+        "message": "Request in timeout",
+        "description": ""
+    },
+
+    "option_legal_label": {
+        "message": "This extension is not affiliated or endorsed by Gitblit.",
+        "description": ""
+    },
+    "option_createdby_label": {
+        "message": "By David GUEHENNEC",
+        "description": ""
+    },
+    "option_common_label": {
+        "message": "General",
+        "description": ""
+    },
+    "option_common_notification_caption": {
+        "message": "Notification",
+        "description": ""
+    },
+    "option_common_systemNotification": {
+        "message": "System notification",
+        "description": ""
+    },
+    "option_common_soundNotification": {
+        "message": "Sound notification",
+        "description": ""
+    },
+    "option_common_notify_duration_caption": {
+        "message": "Notification duration",
+        "description": ""
+    },
+    "option_commit_view_caption": {
+        "message": "Visualization",
+        "description": ""
+    },
+    "option_commit_view_nbMax_label": {
+        "message": "Maximum number of commits displayed",
+        "description": ""
+    },
+    "option_commit_view_nbMax_characters_label": {
+        "message": "Maximum number of characters displayed in commit abstract",
+        "description": ""
+    },
+    "option_common_displayHistory": {
+        "message": "Also show commits history",
+        "description": ""
+    },
+    "option_server_caption": {
+        "message": "Server",
+        "description": ""
+    },
+    "option_server_label": {
+        "message": "Gitblit server URL",
+        "description": ""
+    },
+    "option_server_test_button": {
+        "message": "Check",
+        "description": ""
+    },
+    
+    "tooltip_commit_caption": {
+        "message": "Unread commits",
+        "description": ""
+    },
+    "tooltip_information_caption": {
+        "message": "Information",
+        "description": ""
+    },
+    "tooltip_configuration_description": {
+        "message": "For notifications, please configure your server url",
+        "description": ""
+    },
+    "tooltip_notConnected_description": {
+        "message": "For notifications, please log in.",
+        "description": ""
+    },
+    "tooltip_connectionInProgress_description": {
+        "message": "Connection in progress...",
+        "description": ""
+    },
+    "tooltip_connected_description": {
+        "message": "connected",
+        "description": ""
+    },
+    "tooltip_errorInitPage_title": {
+        "message": "Sorry, an error has occurred, please reload this page.",
+        "description": ""
+    },
+    "tooltip_noUnreadCommit": {
+        "message": "No read commit found",
+        "description": ""
+    },
+    "tooltip_commit_read_caption": {
+        "message": "Last commits",
+        "description": ""
+    },
+    "tooltip_noReadCommit": {
+        "message": "No commit found",
+        "description": ""
+    },
+    "tooltip_project": {
+        "message": "Project: %PROJECT%",
+        "description": ""
+    },
+    "tooltip_author": {
+        "message": "by %AUTHOR% (%SHA1% on %BRANCH%)",
+        "description": ""
+    }
+}

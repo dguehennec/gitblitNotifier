@@ -1,0 +1,138 @@
+﻿{
+    "extName": {
+        "message": "Gitblit Notifier",
+        "description": ""
+    },
+    "extDescription": {
+        "message": "Cette extension vous notifie d'un nouveau commit envoyé sur le serveur Gitblit.",
+        "description": ""
+    },
+
+    "main_checkNow": {
+        "message": "Rafraichir...",
+        "description": ""
+    },
+    "main_options_label": {
+        "message": "Préférences",
+        "description": ""
+    },
+
+    "connector_error_authentification": {
+        "message": "Erreur d'authentification: %REASON%!",
+        "description": ""
+    },
+    "connector_error_req": {
+        "message": "Erreur lors du dialogue avec le serveur: %REASON%!",
+        "description": ""
+    },
+    "connector_error_req_timeout": {
+        "message": " Délai de réponse trop long",
+        "description": ""
+    },
+
+    "option_legal_label": {
+        "message": "Cette extension n'est pas affiliée à Gitblit ni soutenue par cette entreprise.",
+        "description": ""
+    },
+    "option_createdby_label": {
+        "message": "Par David GUEHENNEC",
+        "description": ""
+    },
+    "option_common_label": {
+        "message": "Général",
+        "description": ""
+    },
+    "option_common_notification_caption": {
+        "message": "Notification commit non lu",
+        "description": ""
+    },
+    "option_common_systemNotification": {
+        "message": "Notification système",
+        "description": ""
+    },
+    "option_common_soundNotification": {
+        "message": "Émettre un son",
+        "description": ""
+    },
+    "option_common_notify_duration_caption": {
+        "message": "Durée de la notification",
+        "description": ""
+    },
+    "option_commit_view_caption": {
+        "message": "Visualisation",
+        "description": ""
+    },
+    "option_commit_view_nbMax_label": {
+        "message": "Nombre de commits maximum affichés",
+        "description": ""
+    },
+    "option_commit_view_nbMax_characters_label": {
+        "message": "Nombre de caractères maximum affichés pour le résumé d'un commit",
+        "description": ""
+    },
+    "option_common_displayHistory": {
+        "message": "Afficher aussi l'historique des commits",
+        "description": ""
+    },
+    "option_server_caption": {
+        "message": "Serveur",
+        "description": ""
+    },
+    "option_server_label": {
+        "message": "Url du serveur gitblit",
+        "description": ""
+    },
+    "option_server_test_button": {
+        "message": "Tester",
+        "description": ""
+    },
+    
+    "tooltip_commit_caption": {
+        "message": "Commits non vu",
+        "description": ""
+    },
+    "tooltip_information_caption": {
+        "message": "Message d'Information",
+        "description": ""
+    },
+    "tooltip_configuration_description": {
+        "message": "Pour avoir des notifications, veuillez configurer l'extension",
+        "description": ""
+    },
+    "tooltip_notConnected_description": {
+        "message": "Pour avoir des notifications, veuillez-vous connecter.",
+        "description": ""
+    },
+    "tooltip_connectionInProgress_description": {
+        "message": "Connexion en cours...",
+        "description": ""
+    },
+    "tooltip_connected_description": {
+        "message": "Connecté",
+        "description": ""
+    },
+    "tooltip_errorInitPage_title": {
+        "message": "Désolé une erreur s'est produite, s'il vous plaît recharger cette page.",
+        "description": ""
+    },
+    "tooltip_noUnreadCommit": {
+        "message": "Pas de commit non vu",
+        "description": ""
+    },
+    "tooltip_commit_read_caption": {
+        "message": "Derniers commits",
+        "description": ""
+    },
+    "tooltip_noReadCommit": {
+        "message": "Pas de commit trouvé",
+        "description": ""
+    },
+    "tooltip_project": {
+        "message": "Projet: %PROJECT%",
+        "description": ""
+    },
+    "tooltip_author": {
+        "message": "Par %AUTHOR% (%SHA1% sur %BRANCH%)",
+        "description": ""
+    }
+}

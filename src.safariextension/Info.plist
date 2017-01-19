@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>David GUEHENNEC</string>
+	<key>Builder Version</key>
+	<string>11601.6.17</string>
+	<key>CFBundleDisplayName</key>
+	<string>Gitblit Notifier</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.davidguehennec.safari.gitblitnotifier</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>PROJECT_VERSION</string>
+	<key>CFBundleVersion</key>
+	<string>PROJECT_VERSION</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Database Quota</key>
+		<real>1048576</real>
+		<key>Global Page</key>
+		<string>background.html</string>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>openPopup</string>
+				<key>Identifier</key>
+				<string>GitblitNotifierTab</string>
+				<key>Image</key>
+				<string>skin/images/icon_disabled.png</string>
+				<key>Label</key>
+				<string>Gitblit Notifier</string>
+				<key>Palette Label</key>
+				<string>Gitblit Notifier</string>
+				<key>Tool Tip</key>
+				<string>Gitblit Notifier</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>js/inject.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>This extension notifies you when new commit arrive on your gitblit server.</string>
+	<key>DeveloperIdentifier</key>
+	<string>Z75WJL54B4</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>*</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
