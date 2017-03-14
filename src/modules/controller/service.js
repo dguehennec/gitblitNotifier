@@ -343,7 +343,7 @@ gitblit_notifier_Service.prototype._parseActivityResponse = function(activity) {
             var match, link = "";
             var re = /<a href="..\/commit\/(.*)" target/gm;
             if(match = re.exec(commits[indexCommit].innerHTML)) {
-                link = gitblit_notifier_Prefs.getUserServer() + '/gitblit/commit/' + match[1];
+                link = gitblit_notifier_Prefs.getUserServer() + '/commit/' + match[1];
             }
             commitTempList.push(new gitblit_notifier_commit(date, values[1], values[4], values[13], values[17], values[19], values[21], link));
         };
